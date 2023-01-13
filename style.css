@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
+
+/* nav styles */
+
+.nav{
+    background: #562EFF;
+    padding: 15px 20px;
+}
+
+.nav-container{
+    width: 60%;
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-logo img{
+    width: 45px;
+}
+
+.nav-logo p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}
+
+.nav-menu li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
